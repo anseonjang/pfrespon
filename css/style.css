@@ -197,6 +197,7 @@ main section article div p {
         top: 0;
         left: 0;
         transition: 0.5s;
+        z-index:99999;
     }
 
 
@@ -257,16 +258,18 @@ main section article div p {
     main {
         width: 98.5%; /* 추가 */
         margin-left: -1%; ; /* 추가 */
-        margin-right: 0.5%; ; /* 추가 */
+        margin-right: 0.5%; ; /* 추가 */ 
+       
     }
     main ul{width: 96%; margin: 0 auto;} ; /* 추가 */
 
     main section {
         display: flex; ; /* 추가 */
         width: 98%;  ; /* 추가 */
+       
         /* padding-right: 30px;
-        border: 1px solid red; */
-
+        */
+       
     }
 
     main section article {
@@ -299,6 +302,8 @@ main section article {
     header ul {
         display: none;  
     }
+    main {
+         margin-top: 70px;}  /* 추가추가 */
     main ul {
         display: flex;
         justify-content: space-between;

@@ -300,28 +300,37 @@ main section article {
         display: none;  
     }
     main ul {
-        width: 95%; /* 추가 */
-        margin: 0 0 10px 5px;  /* 수정 */
+        display: flex;
+        justify-content: space-between;
+        width: 90%; /* 추가 */
+         /* 수정 */
         /* margin-right: 0;
         box-sizing: border-box;
         padding: 0 13px; */
-    }
+        /* border:1px solid red; */
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%; 
+       
 
+    }
+/*
     main ul li {
-        width: 33%;
+         width: 33%;
         margin-right: 1%;
-        margin-left: -5px;
-    }
-
+        margin-left: -5px; 
+    }*/
+    main ul li a {display: block;padding: 0 3px; }
     main ul li:nth-of-type(1) {
         margin-right: 0%;
     }
     /* main section {
         padding: 0; margin: 0;
     } */
-    main section {margin-left: -10px;}/* 추가*/
+    /*main section {margin-left: -10px;} 수정수정 */
 
     /* 컨텐츠 */
+    main section {margin-top: 20px;}
     main section article {
         width: 100%;
         padding: 10px;
